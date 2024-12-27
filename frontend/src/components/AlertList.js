@@ -13,7 +13,7 @@ function AlertList({ alerts, fetchAlerts }) {
 
     return (
         <div style={styles.container}>
-            <h2 style={styles.heading}>Current Alerts</h2>
+            <h2 style={styles.heading}>Current Alert</h2>
             {alerts.length === 0 ? (
                 <p>No alerts found.</p>
             ) : (
