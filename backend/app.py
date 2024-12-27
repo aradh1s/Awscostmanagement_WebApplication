@@ -84,7 +84,7 @@ def create_alert():
         sns.publish(
             TopicArn=SNS_TOPIC_ARN,
             Subject='Billing Alert Created',
-            Message=f'A billing alert has been created with a threshold of ${threshold}.'
+            Message=f'A billing alert  been created with a threshold of ${threshold}.'
         )
 
         return jsonify({"message": "Alert created successfully!"}), 200
